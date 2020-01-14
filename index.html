@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+
+<!-- hovering website
+https://miketricking.github.io/bootstrap-image-hover/# -->
+
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="WebsiteforHackathon.js"> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+ </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#themes" class="w3-bar-item w3-button w3-padding-large w3-hide-small">THEMES</a>
+    <a href="#schedule" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SCHEDULE</a>
+    <a href="#faq" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FAQ</a>
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <a href="#sponsors" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SPONSORS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">SIGN-UP <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#signup" class="w3-bar-item w3-button">Participant</a>
+        <a href="#signup" class="w3-bar-item w3-button">Mentor</a>
+        <a href="#signup" class="w3-bar-item w3-button">Judge</a>
+      </div>
+    </div>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#themes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">THEMES</a>
+  <a href="#schedule" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SCHEDULE</a>
+  <a href="#faq" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FAQ</a>
+  <a href="#team" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
+  <a href="#sponsors" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SPONSORS</a>
+  <a href="#signup" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SIGN-UP</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1500px;margin-top:46px">
+
+
+		<img src="numthing.jpg" style="width:100%; filter: blur(5px);">
+    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-64 w3-hide-small">
+      <h1 style="font-family: serif;"><span>H</span><span>E</span><span>L</span><span>I</span><span>X</span><br/><span>H</span><span>A</span><span>C</span><span>K</span><span>S</span></h1> 
+    </div>
+      <!-- <h3 style = "font-size: 25px;font-family:Lucida Console; ">description</h3> -->
+</div>
+  
+  <!-- The ABOUT Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px " id="about">
+    <h2 class="w3-wide" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00;border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px;background-color:#e6e6e6 /*#D9FFD4*/ /*#E4F1F5*/">A  B  O  U  T</h2>
+    <p class="w3-opacity"><i>We love inspiring!</i></p>
+    <p class="w3-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <!-- The THEME Section -->
+   <div style = "background-color: #00cc66 /*black*/ /*#9CDD93*/ /*#90D886*/ /*#9ECEF2*/; box-shadow: 3px 0px 3.6px 2px black" id="themes">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00 /*#11629E*/; border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px;background-color:#e6e6e6 /*white*/ /*#D9FFD4*/ /*#E4F1F5*/">T  H  E  M  E</h2>
+	<div class="w3-row-padding w3-padding-32" style="margin:0 -200px">
+	      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+			<div class="hvrbox">
+				<img src="health.png" alt="Mountains" class="hvrbox-layer_bottom">
+				<div class="hvrbox-layer_top">
+					<div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+				</div>
+			</div>
+			<!-- <br/> -->
+			<div class="hvrbox">
+				<img src="env.png" alt="Mountains" class="hvrbox-layer_bottom">
+				<div class="hvrbox-layer_top">
+					<div class="hvrbox-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ligula porttitor, lacinia sapien non.</div>
+				</div>
+			</div>
+
+	</div>
+	</div>
+   </div>
+
+
+    <!-- The SCHEDULE section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;" id="schedule">
+	    <h2 class="w3-wide" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00;border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px; padding-right: 10px; padding-left: 10px; background-color:#e6e6e6 /*#D9FFD4*/ /*#E4F1F5*/">S C H E D U L E</h2>
+	    			<br/>
+					<table style="font-size: 15px; font-family: Verdana">
+					  <tr>
+					    <th class="border1" colspan="2" style="font-size: 30px; font-family: Arial Black">S A T U R D A Y</th>
+					    <th class="border1" colspan="2" style="font-size: 30px; font-family: Arial Black">S U N D A Y</th>
+
+					  </tr>
+					  <tr>
+					    <td class="border2">7:30 AM</td>
+					    <td class="border22">Start</td>
+					    <td class="border2">7:30 AM</td>
+					    <td class="border22">Start</td>
+					  </tr>
+					  <tr>
+					    <td class="border2">8:00 AM</td>
+					    <td class="border22">Begin Hacking</td>
+					    <td class="border2">8:00 AM</td>
+					    <td class="border22"> Begin Hacking </td>
+					  </tr>
+					  <tr>
+					    <td class="border2">8:30 AM</td>
+					    <td class="border22">Game time</td>
+					    <td class="border2">8:30 AM</td>
+					    <td class="border22">Game time</td>
+					  </tr>
+					  <tr>
+					    <td class="border3">9:00 AM</td>
+					    <td class="border32">Food time</td>
+					    <td class="border3">9:00 AM</td>
+					    <td class="border32">Food time</td>
+					  </tr>
+					</table>
+
+
+			      </div>
+			      </div>
+
+			  </div>
+			</div> 
+
+
+<!-- The FAQ Section -->
+  <div style = "background-color: #00cc66 /*black*/ /*#9CDD93*/ /*#90D886*/ /*#9ECEF2*/; box-shadow: 3px 0px 3.6px 2px black" id="faq">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00; border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px;background-color:#e6e6e6 /*#D9FFD4*/ /*#E4F1F5*/">F A Q </h2>
+      <p class="w3-opacity w3-center"><i>Feel free to email us if you still have any questions!</i></p>
+
+
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Do I have to bring anything?</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+		
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+		
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+		
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+		
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+		
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+		
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+
+		<div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+		  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Question Here</h2>
+		  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+		</div>
+		
+
+		
+
+      </div>
+    </div>
+  </div>
+
+
+	<!-- The TEAM Section -->
+	    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="team">
+	      <h2 class="w3-wide w3-center" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00 /*#11629E*/; border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px;background-color:#e6e6e6 /*white*/ /*#D9FFD4*/ /*#E4F1F5*/">T E A M</h2>
+		<div class="w3-row-padding w3-padding-32" style="margin:0 -200px">
+		      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!--  row 1 -->
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px; margin-left: 70px;">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Anya Agrawal<br/><i style="font-size: 10px">Co-Director</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Tarini Maram<br/><i style="font-size: 10px">Co-Director</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Sophie Lin<br/><i style="font-size: 10px">Co-Director</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>  
+
+
+
+		   <!--  row 2 -->
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px; margin-left: 70px;">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Aashvi Rastogi<br/><i style="font-size: 10px">Co-Director</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Name<br/><i style="font-size: 10px">Job</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Name<br/><i style="font-size: 10px">Job</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+
+
+
+		    <!-- row 3 -->
+			<div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px; margin-left: 70px;">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Name<br/><i style="font-size: 10px">Job</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Name<br/><i style="font-size: 10px">Job</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="hovereffect" style="width: 300px; margin-right:50px; margin-bottom: 50px">
+	        <img class="img-responsive" src="black2.jpg" alt="">
+	        <div class="overlay">
+		            <h2 style="font-family: Courier; font-size: 30px">Name<br/><i style="font-size: 10px">Job</i></h2>
+		            <div class="rotate">
+		                <p class="group1">
+		                    <a href="#">
+		                        <i class="fa fa-twitter"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-facebook"></i>
+		                    </a>
+		                </p>
+		                    <hr>
+		                    <hr>
+		                <p class="group2">
+		                    <a href="#">
+		                        <i class="fa fa-instagram"></i>
+		                    </a>
+		                    <a href="#">
+		                        <i class="fa fa-envelope"></i>
+		                    </a>
+		                </p>
+		            </div>
+		        </div>
+		    </div>  
+
+
+				
+		</div>
+		</div>
+	  
+	<!-- The Sponsors Section -->
+	   <div style = "background-color: #00cc66 /*black*/ /*#9CDD93*/ /*#90D886*/ /*#9ECEF2*/; box-shadow: 3px 0px 3.6px 2px black" id="sponsors">
+	    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+	      <h2 class="w3-wide w3-center" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00 /*#11629E*/; border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px;background-color:#e6e6e6 /*white*/ /*#D9FFD4*/ /*#E4F1F5*/">S P O N S O R S</h2>
+		<div class="w3-row-padding w3-padding-32" style="margin:0 -200px">
+		      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+			    <div class="hovereffect2" style="width: 300px;margin-right: 40px;">
+			        <img class="img-responsive2" src="digocean.png" style="border-radius: 10px;" alt="">
+			        <div class="overlay2">
+			           <h2>Digital Ocean</h2>
+			           <a class="info2" href="https://www.digitalocean.com/" style="background-color: grey;">More Info</a>
+			        </div>
+			    </div>
+
+			    <div class="hovereffect2" style="width: 292px;">
+			        <img class="img-responsive2" src="shaweelogo.png" style="border-radius: 10px;" alt="">
+			        <div class="overlay2">
+			           <h2>Shawee</h2>
+			           <a class="info2" href="https://shawee.io/" style="background-color: grey;">More Info</a>
+			        </div>
+			    </div>
+		</div>
+		</div>
+	   </div>
+
+  <!-- The SIGN-UP Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="signup">
+      <h2 class="w3-wide w3-center" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00; border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px;background-color:#e6e6e6 /*#D9FFD4*/ /*#E4F1F5*/">S I G N - U P </h2>
+      <p class="w3-opacity w3-center"><i>Sign up fast so the spots don't fill up!</i><br/><strong>Note:</strong> You can sign up to be a mentor and/or a judge or only a participant.</p>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container" style = "background-color:#BCFFB3/*#D9FFD4*/; border: 9px double #494949 /*#0D6F00*/; border-radius: 9px ">
+            <h4><b>Participant</b></h4>
+            <p class="w3-opacity">Grades 8 - 12<br/>Males and Females</p>
+            <p><i>Competeting in Hackathon against other participants with the goal to create and learn.</i></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href = 'https://forms.gle/qEo4pEZLqnRW38bTA'">Sign-Up</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container" style = "background-color:#BCFFB3; border: 9px double #494949 /*#0D6F00*/; border-radius: 9px">
+            <h4><b>Mentor</b></h4>
+            <p class="w3-opacity">Ages 18+<br/>Must be experienced in CS</p>
+            <p><i>Inspiring and assisting participants in successfully achieving their goal for their project</i></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href = 'https://forms.gle/qEo4pEZLqnRW38bTA'">Sign-Up</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!-- <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"> -->
+          <div class="w3-container" style = "background-color:#BCFFB3; border: 9px double #494949 /*#0D6F00*/; border-radius: 9px">
+            <h4><b>Judge</b></h4>
+            <p class="w3-opacity">Ages 18+<br/>Must be experienced in CS</p>
+            <p><i>Comparing and constructively criticizing participants' projects to determine a winner.</i></p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.location.href = 'https://forms.gle/qEo4pEZLqnRW38bTA'">Sign-Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- The Contact Section -->
+ <div style = "background-color: #00cc66 /*black*/ /*#9CDD93*/ /*#90D886*/ /*#9ECEF2*/; box-shadow: 3px 0px 3.6px 2px black" id="contact">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center" style="color:black;font-size:80px;font-family:Lucida Console;text-shadow: 5px 2px 6px #0D6F00; border-radius: 10px;margin-left:50px;margin-right:50px;padding-bottom:10px;padding-top:10px;background-color:#e6e6e6 /*#D9FFD4*/ /*#E4F1F5*/">C O N T A C T</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> ___, CA<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: HelixHacks20@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

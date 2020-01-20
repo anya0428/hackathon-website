@@ -310,7 +310,7 @@ h1 span:nth-child(14) {
     width: 75%;
 }
 
-.grow1 {
+/*.grow1 {
   padding: 0px 10px 20px 10px ;
   border-radius: 10px;
   height: 50px;
@@ -323,10 +323,53 @@ h1 span:nth-child(14) {
   text-align: center;
   overflow: hidden;
 }
-.grow1:hover {
+.grow1:on('click', function() {
   height: 200px;
-    width: 75%;
+    width: 75%;*/
 }
+
+.grow1 {
+  background-color: #047600;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .grow1:hover {
+  background-color: #047600;
+}
+
+
+.collapsible {
+  background-color: #047600;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #047600;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #A6CBA5;
+
+}
+
+
 
 /*round 2 - for team*/
 .hvrbox2,
@@ -337,6 +380,7 @@ h1 span:nth-child(14) {
   position: relative;
   display: inline-block;
   overflow: hidden;
+
   max-width: 75%;
   height: auto;
   left: 130px;

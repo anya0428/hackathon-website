@@ -307,51 +307,46 @@ body {font-family: "Lato", sans-serif}
 
 		<div class="mobileShow">
 		<!-- STUFF GOES HERE -->
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Do I have to bring anything?</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
-				
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
-				
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
+			<button type="button" class="collapsible" style="border-radius: 5px;">Open Section 1</button>
+			<div class="content" style="border-radius: 5px;">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
 
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
-				
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
-				
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
-				
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
-				
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
 
-				<div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
+			<button type="button" class="collapsible" style="margin-top: 20px; border-radius: 5px;">Open Section 2</button>
+			<div class="content" style="border-radius: 5px;">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+
+			<button type="button" class="collapsible" style="margin-top: 20px; border-radius: 5px;">Open Section 3</button>
+			<div class="content" style="border-radius: 5px;">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+
+				for (i = 0; i < coll.length; i++) {
+				  coll[i].addEventListener("click", function() {
+				    this.classList.toggle("active");
+				    var content = this.nextElementSibling;
+				    if (content.style.display === "block") {
+				      content.style.display = "none";
+				    } else {
+				      content.style.display = "block";
+				    }
+				  });
+				}
+			</script>
+
+
+				<!-- <div class="grow1" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
 				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 20px">Question Here</h2>
 				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div>
-
+				</div> -->
+			
 		</div>
 		
 

@@ -218,7 +218,7 @@ h1 span {
   top: 50px;
   right: 170px;
   display: inline;
-  -webkit-animation: bounce 0.3s ease infinite alternate;
+  -webkit-animation: bounce 0.4s /*ease*/ infinite alternate;
   font-size: 100px;
   color: #fff;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
@@ -227,6 +227,7 @@ h1 span {
    font-family: serif;
    font-weight: bold;
   -webkit-font-smoothing: antialiased;
+  transition-delay: 3s;
 }
 
 h1 span:nth-child(2) {

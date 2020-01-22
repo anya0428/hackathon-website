@@ -201,7 +201,7 @@ body:before {
 h1 {
   cursor: default;
   position: absolute;
-  top: 85px;
+  top: 60px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -211,6 +211,7 @@ h1 {
   display: block;
   text-align: center;
   color:orange;
+  text-align:center;
 }
 
 h1 span {
@@ -218,7 +219,7 @@ h1 span {
   top: 50px;
   right: 170px;
   display: inline;
-  -webkit-animation: bounce 0.4s /*ease*/ infinite alternate;
+  -webkit-animation: bounce 0.4s ease 8 alternate;
   font-size: 100px;
   color: #fff;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,

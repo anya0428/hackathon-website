@@ -986,12 +986,16 @@ tr:nth-child(even) {
   background-color: black; 
   color: white; 
   border-radius: 10px;
+  border:none; 
+  border-style:none;
 }
 
 .button1:hover {
   background-color: #4CAF50;
   color: white;
   border-radius: 10px;
+  border:none; 
+  border-style:none;
 }
 
 

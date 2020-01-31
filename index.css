@@ -589,7 +589,7 @@ h1 span:nth-child(14) {
 
 
 .collapsible {
-  background-color: #cca300;
+  background-color: #047600;
   color: black;
   cursor: pointer;
   padding: 8px;
@@ -601,14 +601,14 @@ h1 span:nth-child(14) {
 }
 
 .active, .collapsible:hover {
-  background-color: #cca300;
+  background-color: #047600;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #ffeb99;
+  background-color: #A6CBA5;
 
 }
 

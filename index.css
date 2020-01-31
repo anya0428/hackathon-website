@@ -1091,6 +1091,12 @@ tr:nth-child(even) {
   text-shadow: 1px 2px 10px black;
 }
 
+#customers tr td span {
+  border: 2px solid #bfbfbf; 
+  padding: 5px 10px 5px 10px; 
+  margin: 5px 10px 5px 5px
+}
+
 
 #customersmob {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -1107,8 +1113,6 @@ tr:nth-child(even) {
 #customersmob tr:nth-child(even){
   background-color: #f2f2f2;
 }
-
-#customersmob td:hover {background-color: #ccffcc;}
 
 #customersmob th {
   padding-top: 12px;

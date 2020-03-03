@@ -1075,7 +1075,7 @@ tr:nth-child(even) {
 }
 
 .homebutton {
-  background-color: white; 
+  background-color: #e6e6e6; 
   border-radius: 10px; 
   padding-right: 10px;
   margin-bottom: 5px;
@@ -1088,6 +1088,12 @@ tr:nth-child(even) {
   border:none; 
   border-style:none;
 }
+
+.title{
+  font-size: 100px;
+  font-family: Gill Sans, sans-serif;;
+}
+
 
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;

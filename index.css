@@ -1031,11 +1031,6 @@ tr:nth-child(even) {
       border-left:0px;
     }
 
-/*automated slideshow code*/
-
-/*_____________________*/
-
-
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -1062,6 +1057,31 @@ tr:nth-child(even) {
 }
 
 .button1:hover {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 10px;
+  border:none; 
+  border-style:none;
+}
+.homebutton1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border:none; 
+  border-style:none;
+}
+
+.homebutton {
+  background-color: white; 
+  border-radius: 10px; 
+  padding-right: 10px;
+  margin-bottom: 5px;
+}
+
+.homebutton:hover {
   background-color: #4CAF50;
   color: white;
   border-radius: 10px;

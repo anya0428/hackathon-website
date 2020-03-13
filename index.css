@@ -406,9 +406,9 @@ figure.effect-ming:hover img {
 /*___________*/
 
 
-@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+/*@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");*/
 /* BODY */
-body {
+/*body {
   position: relative;
   top: 0;
   left: 0;
@@ -426,9 +426,9 @@ body {
 
 ::selection {
   background: transparent;
-}
+}*/
 /* CLOUDS */
-body:before {
+/*body:before {
   content: "";
   position: absolute;
   top: 0;
@@ -445,9 +445,9 @@ body:before {
     -250px 0 300px 150px rgba(255, 255, 255, 0.6),
     550px 0 300px 200px rgba(255, 255, 255, 0.6),
     -550px 0 300px 200px rgba(255, 255, 255, 0.6);
-}
+}*/
 /* JUMP */
-h1 {
+/*h1 {
   cursor: default;
   position: absolute;
   top: 60px;
@@ -529,17 +529,22 @@ h1 span:nth-child(13) {
 
 h1 span:nth-child(14) {
   -webkit-animation-delay: 0.8s;
-}
+}*/
 
 /* ANIMATION */
-@-webkit-keyframes bounce {
+/*@-webkit-keyframes bounce {
   100% {
     top: -20px;
     text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
       0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
       0 50px 25px rgba(0, 0, 0, 0.2);
   }
-}
+}*/
+
+
+
+
+
 
 
 .grow {
@@ -916,8 +921,8 @@ h1 span:nth-child(14) {
 .hovereffect2 img {
   display: block;
   position: relative;
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 
 }
 
@@ -957,8 +962,8 @@ h1 span:nth-child(14) {
   -webkit-transform: scale(0.7);
   -ms-transform: scale(0.7);
   transform: scale(0.7);
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
   opacity: 0;
   filter: alpha(opacity=0);
   color: #fff;
@@ -1034,12 +1039,14 @@ tr:nth-child(even) {
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
-  color: black;
+  color: white;
+  /*font-family: Tahoma, Verdana, Segoe, sans-serif;*/
+  font-family: "Allerta Stencil";
   padding: 12px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0px -6px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -1049,8 +1056,8 @@ tr:nth-child(even) {
 }
 
 .button1 {
-  background-color: black; 
-  color: white; 
+  background-color: #e6e6e6; 
+  color: #0d0d0d; 
   border-radius: 10px;
   border:none; 
   border-style:none;
@@ -1093,7 +1100,6 @@ tr:nth-child(even) {
   font-size: 100px;
   font-family: Gill Sans, sans-serif;;
 }
-
 
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -1164,28 +1170,6 @@ tr:nth-child(even) {
   padding: 5px 10px 5px 10px; 
   margin: 5px 10px 5px 0px;
 }
-
-
-
-
-.mobileShow {display: none;}
-
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
-  }
-
-.mobileHide { display: inline; }
-
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){
-     .mobileHide { display: none;}
-  }
-
 
 #content-desktop {display: block;}
 #content-mobile {display: none;}

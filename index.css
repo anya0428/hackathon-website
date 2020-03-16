@@ -1125,8 +1125,8 @@ tr:nth-child(even) {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
-  margin: 0px -6px;
+  font-size: 115%;
+/*  margin: 0px -6px;*/
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;

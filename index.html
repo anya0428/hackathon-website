@@ -8,7 +8,7 @@ https://miketricking.github.io/bootstrap-image-hover/# -->
 
 <head>
   <link rel="stylesheet" href="index.css">
-  <!-- <link rel="stylesheet" href="index.js"> -->
+  <link rel="stylesheet" href="index.js">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
@@ -317,46 +317,33 @@ body {font-family: "Lato", sans-serif}
 
 
 		<div id="content-desktop">
-		<!-- STUFF GOES HERE -->
-				<!-- <div class="grow" style="background-color: #047600; color: white; box-shadow: 3px 3px 7px 0.5px black">
-				  <h2 style="font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial sans-serif; font-size: 25px">Do I have to bring anything?</h2>
-				  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
-				</div> -->
+		    <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-				<div class="grid">
-					<figure class="effect-ming">
-						<img src="green.png" alt="img09"/>
-						<figcaption>
-							<h2>Question Will Be Written Here!<span></span></h2>
-							<p>Answer Will Be Written Here! Answer Will Be written here.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ming">
-						<img src="green.png" alt="img09"/>
-						<figcaption>
-							<h2>Question Will Be Written Here!<span></span></h2>
-							<p>Answer Will Be Written Here! Answer Will Be written here.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ming">
-						<img src="green.png" alt="img09"/>
-						<figcaption>
-							<h2>Question Will Be Written Here!<span></span></h2>
-							<p>Answer Will Be Written Here! Answer Will Be written here.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-					<figure class="effect-ming">
-						<img src="green.png" alt="img09"/>
-						<figcaption>
-							<h2>Question Will Be Written Here!<span></span></h2>
-							<p>Answer Will Be Written Here! Answer Will Be written here.</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-				</div>
+
+			  <div class="accordion">
+			    <h2 class="faqSectTitle"><p href="#link2">What are the prizes?<i class="right" >&#43;</i></p></h2>
+			    <div class="faqSectAnswer">
+			      Stuff
+			    </div>
+			  </div>
+
+
+			  <div class="accordion">
+			    <h2 class="faqSectTitle"><p href="#link2">How much does it cost?<i class="right" >&#43;</i></p></h2>
+			    <div class="faqSectAnswer">
+			      Nothing!
+			    </div>
+			  </div>
+
+
+			<script type="text/javascript">
+				$(".accordion > div").hide().parent().hover(function(event) {
+				  $(this).children("div").slideToggle(event.type === "mouseenter");
+				});
+			</script>
+
+
+
 				<!-- ___________________ FOR MOBILE -->
 
 		<div id="content-mobile">

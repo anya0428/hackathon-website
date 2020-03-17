@@ -1089,6 +1089,7 @@ transition: all 0.3s ease 0s;
   border: 2px solid #ddd;
   padding: 15px 20px 15px 10px;
   width: 25%;
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 #customers tr:nth-child(even){
@@ -1159,6 +1160,7 @@ transition: all 0.3s ease 0s;
   border-radius: 10px;
   /*padding: -30px;*/
   padding-left: 10px; 
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 .faqSectAnswer{
@@ -1169,7 +1171,10 @@ transition: all 0.3s ease 0s;
   /*padding: -5px;*/
   padding-left: 10px; 
   margin-bottom: 20px;
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
+
+
 
 .signupbut {
 border: none;

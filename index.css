@@ -1055,6 +1055,15 @@ tr:nth-child(even) {
   letter-spacing: 2px;
 }
 
+.titlemob{
+  font-family:'Lucida Grande', arial, sans-serif;
+  text-align:center;
+  text-shadow: 5px 2px 3px #8c8c8c; 
+  font-size: 400%;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+
 
 .example_e {
 border: none;
@@ -1069,6 +1078,29 @@ transition: all 0.3s ease 0s;
 }
 
 .example_e:hover {
+color: white !important;
+font-weight: 700 !important;
+letter-spacing: 3px;
+background: none;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
+.example_emob {
+border: none;
+background: #e6e6e6;
+color: black !important;
+font-weight: 100;
+padding: 10px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
+font-size: 13px;
+}
+
+.example_emob:hover {
 color: white !important;
 font-weight: 700 !important;
 letter-spacing: 3px;

@@ -1080,6 +1080,15 @@ tr:nth-child(even) {
   letter-spacing: 2px;
 }
 
+.titlesmalldesk{
+  font-family:'Lucida Grande', arial, sans-serif;
+  text-align:center;
+  text-shadow: 5px 2px 3px #8c8c8c; 
+  font-size: 500%;
+  margin-top: 5%;
+  letter-spacing: 2px;
+}
+
 .titlemob{
   font-family:'Lucida Grande', arial, sans-serif;
   text-align:center;
@@ -1263,11 +1272,22 @@ transition: all 0.3s ease 0s;
 
 
 #content-desktop {display: block;}
+#content-small-desktop{display: none;}
 #content-mobile {display: none;}
+
+@media screen and (max-width: 1370px) {
+
+#content-desktop {display: none;}
+#content-small-desktop{display: block;}
+#content-mobile {display: none;}
+
+}
+
 
 @media screen and (max-width: 800px) {
 
 #content-desktop {display: none;}
+#content-small-desktop{display: none;}
 #content-mobile {display: block;}
 
 }

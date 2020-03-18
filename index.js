@@ -1,7 +1,6 @@
-$(".panel-heading").parent('.panel').hover(
-function() {
-$(this).children('.collapse').collapse('show');
-}, function() {
-$(this).children('.collapse').collapse('hide');
-}
-);
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});

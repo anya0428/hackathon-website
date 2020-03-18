@@ -77,6 +77,15 @@ body {font-family: "Lato", sans-serif}
     </ul>
   </nav>
 
+  <script type="text/javascript">
+  	let mainNav = document.getElementById("js-menu");
+	let navBarToggle = document.getElementById("js-navbar-toggle");
+
+	navBarToggle.addEventListener("click", function() {
+	  mainNav.classList.toggle("active");
+	});
+  </script>
+
 
 
 <!-- Page content -->

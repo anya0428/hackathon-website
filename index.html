@@ -9,6 +9,7 @@ https://miketricking.github.io/bootstrap-image-hover/# -->
 <head>
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="index.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
@@ -42,7 +43,7 @@ body {font-family: "Lato", sans-serif}
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:70px;background-color: #e6e6e6;margin-right: 30px;">
+<!-- <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:70px;background-color: #e6e6e6;">
   <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()" style="background-color: #e6e6e6">ABOUT</a>
   <a href="#themes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">THEMES</a>
   <a href="#schedule" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SCHEDULE</a>
@@ -51,7 +52,42 @@ body {font-family: "Lato", sans-serif}
   <a href="#sponsors" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SPONSORS</a>
   <a href="#signup" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SIGN-UP</a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-</div>
+</div> -->
+<!-- Top Navigation Menu -->
+	<nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo">logo</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Products</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact Us</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+    <script type="text/javascript">
+    	let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+
+		navBarToggle.addEventListener('click', function () {
+		    
+		    mainNav.classList.toggle('active');
+		});
+    </script>
+
 
 
 <!-- Page content -->

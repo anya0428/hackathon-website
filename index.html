@@ -8,8 +8,8 @@ https://miketricking.github.io/bootstrap-image-hover/# -->
 
 <head>
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="index.js">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="index.js"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
@@ -26,74 +26,55 @@ body {font-family: "Lato", sans-serif}
 <body>
 
 <!-- Navbar -->
-<!-- <div class="w3-top">
+<div class="w3-top">
   <div class="w3-bar w3-card w3-display-topright" style="background-color: #e6e6e6">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars" style="margin-top: 13px;"></i></a>
-    <a href="#" class="w3-bar-item" style="margin-top: 2px;"><img class="homebutton1 homebutton" src="earthlogo.png"></a>
-    <a href="#about" class="w3-bar-item w3-hide-small"><button class="button button1">ABOUT</button></a>
-    <a href="#themes" class="w3-bar-item w3-hide-small"><button class="button button1">THEMES</button></a>
-    <a href="#schedule" class="w3-bar-item w3-hide-small"><button class="button button1">SCHEDULE</button></a>
-    <a href="#faq" class="w3-bar-item w3-hide-small"><button class="button button1">FAQ</button></a>
-    <a href="#team" class="w3-bar-item w3-hide-small"><button class="button button1">TEAM</button></a>
-    <a href="#sponsors" class="w3-bar-item w3-hide-small"><button class="button button1">SPONSORS</button></a>
-    <a href="#signup" class="w3-bar-item w3-hide-small"><button class="button button1">SIGN-UP</button></a>
-    <a href="#contact" class="w3-bar-item w3-hide-small"><button class="button button1">CONTACT</button></a>
-  </div>
-</div> -->
-
-<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<!-- <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:70px;background-color: #e6e6e6;">
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()" style="background-color: #e6e6e6">ABOUT</a>
-  <a href="#themes" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">THEMES</a>
-  <a href="#schedule" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SCHEDULE</a>
-  <a href="#faq" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FAQ</a>
-  <a href="#team" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TEAM</a>
-  <a href="#sponsors" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SPONSORS</a>
-  <a href="#signup" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SIGN-UP</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-</div> -->
-<!-- Top Navigation Menu -->
-	<nav class="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fa fa-bars"></i>
-        </span>
-    <a href="#" class="logo">logo</a>
-    <ul class="main-nav" id="js-menu">
-      <li>
-        <a href="#" class="nav-links">Home</a>
-      </li>
-      <li>
-        <a href="#about" class="nav-links">Products</a>
-      </li>
-      <li>
-        <a href="#" class="nav-links">About Us</a>
-      </li>
-      <li>
-        <a href="#" class="nav-links">Contact Us</a>
-      </li>
-      <li>
-        <a href="#" class="nav-links">Blog</a>
-      </li>
-    </ul>
-  </nav>
-
-  <script type="text/javascript">
-  	let mainNav = document.getElementById("js-menu");
+    	<nav class="navbar" style="background-color: #e6e6e6">
+	    <span class="navbar-toggle" id="js-navbar-toggle">
+	            <i class="fa fa-bars"></i>
+	        </span>
+	    <a href="#" class="logo"><img src="earthlogo.png" style="margin-right: 5px;" align="center">HELIX HACKS</a>
+	    <ul class="main-nav" id="js-menu">
+	      <li>
+	        <a href="#about" class="nav-links">ABOUT</a>
+	      </li>
+	      <li>
+	        <a href="#themes" class="nav-links">THEME</a>
+	      </li>
+	      <li>
+	        <a href="#schedule" class="nav-links">SCHEDULE</a>
+	      </li>
+	      <li>
+	        <a href="#faq" class="nav-links">FAQ</a>
+	      </li>
+	      <li>
+	        <a href="#team" class="nav-links">TEAM</a>
+	      </li>
+	      <li>
+	        <a href="#signup" class="nav-links">SIGN-UP</a>
+	      </li>
+	      <li>
+	        <a href="#contact" class="nav-links">CONTACT</a>
+	      </li>
+	    </ul>
+	  </nav></div>
+</div>
+<script type="text/javascript">
+	let mainNav = document.getElementById("js-menu");
 	let navBarToggle = document.getElementById("js-navbar-toggle");
 
 	navBarToggle.addEventListener("click", function() {
 	  mainNav.classList.toggle("active");
 	});
-  </script>
+</script>
 
 
 
 <!-- Page content -->
 
-<div class="w3-content" style="max-width:1500px;">
+<div class="w3-content" style="max-width:1500px;margin-top: 10px;">
 
 	<div id="content-desktop">
-		<img src="numthing 2.jpg" style="width:100%; filter: blur(5px);">
+		<img src="numthing 2.jpg" style="width:100%; filter: blur(5px);margin-top: 20px;">
 	    <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-64 w3-hide-small w3-center">
 	      <h2 class="title"><strong>HELIX HACKS</strong></h2> 
 	     <h2 style="font-family:Trebuchet MS, sans-serif, arial, sans-serif; text-align:center;font-size: 150%"><i class="fa fa-map-marker"></i><strong>  VENUE NAME:</strong> 123 Street Name, CA, ######</h2> 

@@ -1256,6 +1256,6 @@ transition: all 0.3s ease 0s;
 
 #content-desktop {display: none;}
 #content-small-desktop{display: none;}
-#content-mobile {display: none;}
+#content-mobile {display: block;}
 
 }

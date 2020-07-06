@@ -1208,7 +1208,8 @@ transition: all 0.3s ease 0s;
 #customersmob td, #customersmob th {
   border: 2px solid #ddd;
   padding: 15px 20px 15px 10px;
-   width: 25%;
+  width: 25%;
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 #customersmob tr:nth-child(even){
@@ -1229,8 +1230,9 @@ transition: all 0.3s ease 0s;
 #customersmob tr td span {
   border: 2px solid #bfbfbf; 
   padding: 5px 10px 5px 10px; 
-  margin: 5px 10px 5px 0px;
+  margin: 5px 10px 5px 10px;
 }
+
 
 .faqSectTitle{
   font-size: 20px;

@@ -1201,7 +1201,7 @@ transition: all 0.3s ease 0s;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 #customersmob td, #customersmob th {
@@ -1221,7 +1221,7 @@ transition: all 0.3s ease 0s;
   text-align: center;
   background-color: #4CAF50;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Arial Black;
   text-shadow: 1px 2px 10px black;
 }

@@ -556,10 +556,10 @@ transition: all 0.3s ease 0s;
 
 
 .collapsible {
-  background-color: #047600;
-  color: black;
+  background-color: #777;
+  color: white;
   cursor: pointer;
-  padding: 8px;
+  padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
@@ -568,15 +568,14 @@ transition: all 0.3s ease 0s;
 }
 
 .active, .collapsible:hover {
-  background-color: #047600;
+  background-color: #555;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #A6CBA5;
-
+  background-color: #f1f1f1;
 }
 
 

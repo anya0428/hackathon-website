@@ -1106,7 +1106,7 @@ tr:nth-child(even) {
   font-family:'Lucida Grande', arial, sans-serif;
   text-align:center;
   text-shadow: 5px 2px 3px #8c8c8c; 
-  font-size: 300%;
+  font-size: 350%;
   margin-top: 10%;
   letter-spacing: 2px;
 }
@@ -1139,12 +1139,12 @@ border: none;
 background: #e6e6e6;
 color: black !important;
 font-weight: 100;
-padding: 5px;
+padding: 7px;
 text-transform: uppercase;
 border-radius: 6px;
 display: inline-block;
 transition: all 0.3s ease 0s;
-font-size: 12px;
+font-size: 15px;
 }
 
 .example_emob:hover {

@@ -1282,7 +1282,6 @@ transition: all 0.3s ease 0s;
 
 .socialmedia {
 border: none;
-background-color: transparent;
 padding: 5px 15px;
 display: inline-block;
 font-size:30px; 
@@ -1290,7 +1289,6 @@ margin:5px;
 }
 
 .socialmedia:hover {
-color: black !important;
 opacity: 0.5;
 
 }

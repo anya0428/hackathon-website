@@ -477,6 +477,17 @@ figure.effect-dexter:hover p {
   font-size: 18px;
 }
 
+
+.teamli{
+  font-size: 20px; 
+  color: gray; 
+  text-decoration: none;
+}
+
+.teamli:hover{
+  color: #b3b3b3;
+}
+
 }
 /*--------*/
 .example_e {
@@ -1296,6 +1307,7 @@ color: #e6e6e6;
 opacity: 0.5;
 
 }
+
 
 .right {
   float:right;

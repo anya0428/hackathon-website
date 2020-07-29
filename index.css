@@ -25,7 +25,7 @@ html{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: #e6e6e6;
+  background-color: #e6e6e6; 
   border-radius: 10px;
 }
 .nav-links{
@@ -39,7 +39,7 @@ html{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  background-color: #e6e6e6;
+  background-color: #e6e6e6; 
   border-radius: 10px;
 }
 
@@ -104,7 +104,7 @@ html{
   .nav-links:hover {
     background-color: #4CAF50;
     color: white;
-    border:none;
+    border:none; 
     border-style:none;
 
   }
@@ -267,7 +267,7 @@ html{
 }
 figure.effect-dexter {
   background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
-  background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%);
+  background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%); 
 }
 
 figure.effect-dexter img {
@@ -412,10 +412,10 @@ figure.effect-dexter:hover p {
 
 /*for hover thing*/
 .frame {
-  text-align: center;
+  text-align: center; 
   position: relative;
-  cursor: pointer;
-  perspective: 500px;
+  cursor: pointer;  
+  perspective: 500px; 
 }
 .frame img {
   width: 300px;
@@ -423,7 +423,7 @@ figure.effect-dexter:hover p {
 }
 .frame .details {
   width: 70%;
-  height: 80%;
+  height: 80%;  
   padding: 5% 8%;
   position: absolute;
   content: "";
@@ -431,10 +431,10 @@ figure.effect-dexter:hover p {
   left: 50%;
   transform: translate(-50%, -50%) rotateY(90deg);
   transform-origin: 50%;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.9);  
   opacity: 0;
   transition: all 0.4s ease-in;
-
+  
 }
 .frame:hover .details {
   transform: translate(-50%, -50%) rotateY(0deg);
@@ -479,8 +479,8 @@ figure.effect-dexter:hover p {
 
 
 .teamli{
-  font-size: 20px;
-  color: gray;
+  font-size: 20px; 
+  color: gray; 
   text-decoration: none;
 }
 
@@ -510,7 +510,6 @@ background: none;
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;
-cursor: pointer;
 }
 
 
@@ -872,7 +871,7 @@ cursor: pointer;
 .zoom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
+  transform: scale(1.1); 
 }
 
 .content_zoom div{
@@ -885,7 +884,7 @@ cursor: pointer;
  font-family: sans-serif;
  opacity: 0;
  visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
  transition: visibility 0s, opacity 0.5s linear;
 }
 
@@ -893,7 +892,7 @@ cursor: pointer;
  width: 150px;
  padding: 8px 15px;
  visibility: visible;
- opacity: 0.7;
+ opacity: 0.7; 
 }
 
 
@@ -991,11 +990,13 @@ td, th {
   padding-right: 4px;
   padding-bottom: 10px;
   padding-top: 10px;
-}
+}s
 
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+
 
 .border1
     {
@@ -1051,15 +1052,15 @@ tr:nth-child(even) {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  border:none;
+  border:none; 
   border-style:none;
 }
 
 .button1 {
-  background-color: #e6e6e6;
-  color: #0d0d0d;
+  background-color: #e6e6e6; 
+  color: #0d0d0d; 
   border-radius: 10px;
-  border:none;
+  border:none; 
   border-style:none;
 }
 
@@ -1067,7 +1068,7 @@ tr:nth-child(even) {
   background-color: #4CAF50;
   color: white;
   border-radius: 10px;
-  border:none;
+  border:none; 
   border-style:none;
 }
 .homebutton1 {
@@ -1077,13 +1078,13 @@ tr:nth-child(even) {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  border:none;
+  border:none; 
   border-style:none;
 }
 
 .homebutton {
-  background-color: #e6e6e6;
-  border-radius: 10px;
+  background-color: #e6e6e6; 
+  border-radius: 10px; 
   padding-right: 10px;
   margin-bottom: 5px;
 }
@@ -1092,14 +1093,14 @@ tr:nth-child(even) {
   background-color: #4CAF50;
   color: white;
   border-radius: 10px;
-  border:none;
+  border:none; 
   border-style:none;
 }
 
 .title{
   font-family:'Lucida Grande', arial, sans-serif;
   text-align:center;
-  text-shadow: 5px 2px 3px #8c8c8c;
+  text-shadow: 5px 2px 3px #8c8c8c; 
   font-size: 630%;
   margin-top: 5%;
   letter-spacing: 2px;
@@ -1108,7 +1109,7 @@ tr:nth-child(even) {
 .titlesmalldesk{
   font-family:'Lucida Grande', arial, sans-serif;
   text-align:center;
-  text-shadow: 5px 2px 3px #8c8c8c;
+  text-shadow: 5px 2px 3px #8c8c8c; 
   font-size: 500%;
   margin-top: 5%;
   letter-spacing: 2px;
@@ -1117,7 +1118,7 @@ tr:nth-child(even) {
 .titlemob{
   font-family:'Lucida Grande', arial, sans-serif;
   text-align:center;
-  text-shadow: 5px 2px 3px #8c8c8c;
+  text-shadow: 5px 2px 3px #8c8c8c; 
   font-size: 350%;
   margin-top: 10%;
   letter-spacing: 2px;
@@ -1169,6 +1170,25 @@ background: none;
 transition: all 0.3s ease 0s;
 }
 
+#sponsors {
+  font-family: "Arial", sans-serif;
+  /*border-collapse: collapse;*/
+}
+
+#sponsors th{
+  font-family: "Comic Sans", "Comic Sans MS", cursive;;
+  font-size: 40px; 
+/*  letter-spacing: 4px;*/
+  border: 1px green solid;
+  text-align:center;
+}
+#sponsors td {
+  font-size: 40px; 
+  letter-spacing: 4px;
+  border: 0px green solid;
+  text-align:center;
+  padding: 10px 0px 20px 0px;
+}
 
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -1203,8 +1223,8 @@ transition: all 0.3s ease 0s;
 }
 
 #customers tr td span {
-  border: 2px solid #bfbfbf;
-  padding: 10px 25px 10px 25px;
+  border: 2px solid #bfbfbf; 
+  padding: 10px 25px 10px 25px; 
   margin: 25px 15px 25px 10px
 }
 
@@ -1239,8 +1259,8 @@ transition: all 0.3s ease 0s;
 }
 
 #customersmob tr td span {
-  border: 2px solid #bfbfbf;
-  padding: 5px 10px 5px 10px;
+  border: 2px solid #bfbfbf; 
+  padding: 5px 10px 5px 10px; 
   margin: 5px 10px 5px 10px;
 }
 
@@ -1252,7 +1272,7 @@ transition: all 0.3s ease 0s;
   border:2px solid black;
   border-radius: 10px;
   /*padding: -30px;*/
-  padding-left: 10px;
+  padding-left: 10px; 
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
@@ -1262,7 +1282,7 @@ transition: all 0.3s ease 0s;
   border:1px solid black;
   border-radius: 10px;
   /*padding: -5px;*/
-  padding-left: 10px;
+  padding-left: 10px; 
   margin-bottom: 20px;
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
@@ -1296,7 +1316,7 @@ transition: all 0.3s ease 0s;
 border: none;
 padding: 5px 15px;
 display: inline-block;
-font-size:30px;
+font-size:30px; 
 margin:5px;
 text-decoration:none;
 background-color: green;

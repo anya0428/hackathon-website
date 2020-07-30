@@ -1176,7 +1176,8 @@ transition: all 0.3s ease 0s;
 }
 
 #sponsors th{
-  font-family: "Comic Sans", "Comic Sans MS", cursive;;
+  /*font-family: "Comic Sans", "Comic Sans MS", cursive;*/
+  font-family: "Palatino", "URW Palladio L", serif;
   font-size: 40px; 
 /*  letter-spacing: 4px;*/
   border: 1px green solid;

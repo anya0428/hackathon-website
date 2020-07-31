@@ -1315,9 +1315,8 @@ transition: all 0.3s ease 0s;
 
 .socialmedia {
 border: none;
-padding: 5px 15px;
+padding: 10px 10px;
 display: inline-block;
-font-size:30px; 
 margin:5px;
 text-decoration:none;
 background-color: green;
@@ -1329,6 +1328,7 @@ color: #e6e6e6;
 opacity: 0.5;
 
 }
+
 
 
 .right {

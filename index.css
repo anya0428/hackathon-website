@@ -1289,6 +1289,20 @@ transition: all 0.3s ease 0s;
 }
 
 
+.sm {
+border: none;
+display: inline-block;
+margin:5px;
+text-decoration:none;
+background-color: green;
+border-radius: 50%;
+color: #e6e6e6;
+padding: 7px;
+}
+
+.sm:hover {
+opacity: 0.5;
+}
 
 .signupbut {
 border: none;

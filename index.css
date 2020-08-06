@@ -1226,7 +1226,7 @@ transition: all 0.3s ease 0s;
 #customers tr td span {
   border: 2px solid #bfbfbf; 
   padding: 10px 25px 10px 25px; 
-  margin: 25px 15px 25px 10px
+  margin: 25px 15px 25px 10px; 
 }
 
 

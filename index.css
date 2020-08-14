@@ -68,6 +68,59 @@ html{
   display: block;
 }
 
+
+
+/**/
+/*.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}*/
+/**/
+
+
+
+
 @media screen and (min-width: 768px) {
   .navbar {
     display: flex;
@@ -1383,6 +1436,68 @@ opacity: 0.5;
     color: initial;
 }
 
+.resCategory{
+  font-family: "Palatino", "URW Palladio L", serif;
+  font-size: 45px; 
+  border: 2px green solid;
+  text-align:center;
+}
+
+.resPosition{
+  font-size: 30px; 
+  background-color: #006622; 
+  margin: 10px 10px 0px 0px; 
+  padding: 0px 15px; 
+  color: white; 
+  border-radius: 5px; 
+  font-weight: 0px; 
+  letter-spacing: 0px;
+}
+
+.resWinner{
+  font-size: 30px; 
+  letter-spacing: 0px;
+  font-weight: 0px;
+  margin: 10px 10px 30px 0px;
+}
+
+.resWinnerRaf{
+  font-size: 30px; 
+  letter-spacing: 0px;
+  font-weight: 0px;
+  margin: 10px 10px 0px 0px;
+}
+
+
+.stat td{
+  border:0px solid white;
+  text-align: center;
+  padding: 0px;
+}
+
+.stat tr{
+  padding: 0px;
+}
+
+.stat tr:hover{
+  border:1px solid green;
+  background-color: #ccffcc;
+}
+
+.statTitle{
+font-size: 40px;
+/*width: 400px;*/
+}
+
+.statArrow{
+font-size: 50px;
+/*padding: 0px 200px;*/
+}
+
+.statNum{
+font-size: 50px;
+padding: 0px;
+}
 
 #content-desktop {display: block;}
 #content-small-desktop{display: none;}
